@@ -16,4 +16,5 @@ This app has following features:
  - Javascript
  - CSS
 
-# Live Project : [weather app](https://linkedin.com/in/rahulkumarpahwa).
+# Live Project : [weather app](https://theweatherapp-rahul.netlify.app/)
+
