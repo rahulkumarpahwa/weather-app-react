@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='60' height='80' viewBox='0 0 90 220' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3ctext x='20' y='30' fill='white'%3eRahul Kumar%3c/text%3e%3c/svg%3e ");
+  background-position: 120px;
+  background-color: #8bc6ec;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.weather-box {
+  padding: 10px 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  width: 400px;
+  border-radius: 10px;
+  background-color: #9599e2;
+}
+
+.input-box {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.input-box input {
+  width: 280px;
+}
+.input-box input,
+.input-box button {
+  margin-right: 10px;
+}
+
+.input-box input:hover,
+.input-box button:hover {
+  border: 2px solid black;
+}
+
+.result-img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.error {
+  margin: 3px 0;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.result-box p,
+.result-box h1 {
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+.about a {
+  background-color: white;
+  border-radius: 10px;
+  padding: 0 7px;
+  text-align: center;
+}
+
+.result-box {
+  text-align: center;
+}
+
+.about a {
+  color: black;
+  text-decoration: none;
+}
